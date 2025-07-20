@@ -176,3 +176,35 @@ img{
 .testimonial-card .std {
   font-size: 8px;
 }
+.cta-section {
+  background-color: rgba(228, 207, 207, 0.9);
+  padding: 80px 20px;
+  text-align: center;
+  color: white;
+}
+
+.cta-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.cta-section .quote {
+font-size: 15px;
+  color: blueviolet;
+  margin-bottom: 30px;
+}
+
+.cta-btn {
+  padding: 14px 30px;
+  background-color: #0014c8;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #00b185;
+}
