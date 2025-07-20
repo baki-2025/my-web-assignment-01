@@ -102,3 +102,35 @@ body, html {
 img{
     border-radius: 70px;
     }
+    .stats-section {
+  background-color:rgb(129, 129, 143);
+  color: white;
+  padding: 60px 10px;
+  text-align: center;
+}
+
+.stats-section h2 {
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.stats-grid {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.stat-block {
+  min-width: 120px;
+}
+
+.stat-block h3 {
+  font-size: 25px;
+  color: #0d00c8;
+  margin-bottom: 10px;
+}
+
+.stat-block p {
+  font-size: 12px;
+}
